@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat:wght@500&display=swap");
+
+header,
+h2 {
+  font-family: "Hammersmith One", sans-serif;
+  color: #50623f !important;
+}
+
+header img.header-background {
+  width: 100%;
+}
+
+main {
+  width: 30%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+input, select {
+  padding: 0.7rem 35px !important;
+  background-color: #d8e0d0 !important;
+}
+
+a {
+  color: #50623f !important;
+}
+
+.header-title {
+  top: 8%;
+  left: 18%;
+}
+
+.logo {
+  top: 5%;
+  right: 20%;
+}
+
+.logo-img {
+  width: 20%;
+}
+
+.main form i {
+  top: 12px;
+  left: 10px;
+  color: #50623f;
+}
+
+.button {
+  background-color: #657852;
+  transition: background-color 0.3s;
+  padding: 0.7rem;
+}
+
+.button:hover {
+    background-color: #546444;
+}
+
+.buttons button {
+  width: 20%;
+  height: 40px;
+  border: none;
+  transition: filter .3s;
+}
+
+.buttons button:hover {
+    filter: brightness(90%);
+}
+
+@media (max-width: 1200px) {
+  main {
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .header-title {
+    top: 3% !important;
+    left: 4% !important;
+  }
+
+  .logo {
+    top: 3%;
+    right: 10%;
+  }
+
+  main h2.my-5 {
+    margin-top: 5rem !important;
+  }
+}

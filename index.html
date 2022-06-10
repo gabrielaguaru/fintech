@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FinU</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="../../assets/logo2.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./assets/home-header.png"
+        alt="Imagem vetorizada verde de fundo"
+        class="header-background"
+      />
+      <div class="logo d-flex position-absolute align-items-baseline">
+        <h1 class="display-2">FinU</h1>
+        <img src="./assets/logo.png" alt="Logo FinU" class="logo-img" />
+      </div>
+    </header>
+    <main class="d-flex align-items-center flex-column main">
+      <h2 class="my-5">Bem vindo!</h2>
+      <form class="w-100">
+        <div class="form-group position-relative">
+          <i
+            class="bi bi-envelope-fill form-control-feedback position-absolute"
+          ></i>
+          <input
+            type="email"
+            placeholder="E-mail"
+            id="email"
+            class="form-control border-0 mb-4 shadow-sm"
+          />
+        </div>
+        <div class="form-group position-relative">
+          <i
+            class="bi bi-shield-lock-fill form-control-feedback position-absolute"
+          ></i>
+          <input
+            type="password"
+            placeholder="Senha"
+            id="password"
+            class="form-control border-0 mb-4 shadow-sm"
+          />
+        </div>
+        <section class="buttons d-flex justify-content-between mb-2">
+          <button class="rounded shadow-sm" style="background-color: #1877f2">
+            <img src="./assets/Facebook.png" alt="Logo Facebook" />
+          </button>
+          <button class="rounded shadow-sm" style="background-color: #dfdfdf">
+            <img src="./assets/Google.png" alt="Logo Google" />
+          </button>
+          <button class="rounded shadow-sm" style="background-color: #000">
+            <img
+              src="./assets/Apple.png"
+              alt="Logo Apple"
+              class="position-relative"
+              style="bottom: 2px"
+            />
+          </button>
+        </section>
+        <a href="./pages/dashboard/dashboard.html" class="dashboard">
+          <button
+            type="button"
+            class="button border-0 w-100 text-light rounded mt-4 shadow-sm"
+          >
+            Login
+            <i class="bi bi-box-arrow-in-right text-light"></i>
+          </button>
+        </a>
+      </form>
+
+      <p class="mt-2 mb-5 small">
+        <a href="#" target="_blank">Esqueceu a senha?</a>
+      </p>
+      <a href="./pages/register/register.html" class="w-100">
+        <button class="button border-0 text-light rounded w-100 mt-4 shadow-sm">
+          Criar conta <i class="bi bi-pencil-square"></i>
+        </button>
+      </a>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
